@@ -48,6 +48,7 @@ The following necessary dependencies must be installed to run the application.
  Application can be invoked by node server.js command in terminal or user can use deployed to Heroku link to access application.
 
 ## Test
+  N/A
 
 ## License
 
