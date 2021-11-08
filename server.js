@@ -1,7 +1,8 @@
 const express = require("express");
-const logger = require("morgan");
+
 const mongoose = require("mongoose");
-const router = require("./routes/api.js");
+const logger = require("morgan");
+//const router = require("./routes/api.js");
 const PORT = process.env.PORT || 3000;
 
 //const db = require("./models");
