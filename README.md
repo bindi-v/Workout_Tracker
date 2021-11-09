@@ -41,11 +41,11 @@ The user should be able to:
 
 The following necessary dependencies must be installed to run the application.
 
-  To run this application user need to install mongoDB
+ mongoDB, mongoose, morgan, mongoDB Atlas, Heroku, Express, NodeJS 
 
 ## Usage
 
- Application can be invoked by node server.js command in terminal or user can use deployed to Heroku link to access application.
+ Application can be invoked by npm start or node server.js command in terminal or user can use deployed to Heroku link to access application.
 
 ## Test
   N/A
@@ -65,6 +65,7 @@ Coding Bootcamp provided starter code.
 ## Contact
 
 * GitHub :[bindi-v](https://github.com/bindi-v)
+
 * Email : bindi.vaghela@gmail.com
     
 ## Questions
@@ -73,7 +74,7 @@ If you have any questions, please reach out to my Github.
 
 ### Deployed link
 
-* [The URL to the deployed application]()
+* [The URL to the deployed to Heroku application](https://sheltered-escarpment-30558.herokuapp.com/?id=618adb28125de300160483d4)
 
 * [The URL to the GitHub repository](https://github.com/bindi-v/Workout_Tracker)
 
