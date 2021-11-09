@@ -15,13 +15,13 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3",
-    "mongoose": "^5.3.16",
-    "morgan": "^1.9.1"
-  },
   "bugs": {
     "url": "https://github.com/bindi-v/Workout_Tracker/issues"
   },
-  "homepage": "https://github.com/bindi-v/Workout_Tracker#readme"
+  "homepage": "https://github.com/bindi-v/Workout_Tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  }
 }
