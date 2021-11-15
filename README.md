@@ -26,6 +26,17 @@ The user should be able to:
 
   * View the total duration of each workout from the past seven workouts on the `stats` page.
 
+## Mock Up
+
+The following screenshots demonstrates the application functionality:
+
+![Workout Tracker homepage](./assets/WT-1.png)
+
+![Add Exercise](./assets/WT-2.png)
+
+![After exercise complete](./aasets/WT.png)
+
+![Workout Dashboard](./asets/WT-3.png)
 
 ## Table Of Contents
 
