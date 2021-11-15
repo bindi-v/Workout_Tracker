@@ -34,9 +34,9 @@ The following screenshots demonstrates the application functionality:
 
 ![Add Exercise](./assets/WT-2.png)
 
-![After exercise complete](./aasets/WT.png)
+![After exercise complete](./assets/WT.png)
 
-![Workout Dashboard](./asets/WT-3.png)
+![Workout Dashboard](./assets/WT-3.png)
 
 ## Table Of Contents
 
