@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/bindi-v/Workout_Tracker#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
