@@ -85,7 +85,7 @@ If you have any questions, please reach out to my Github.
 
 ### Deployed link
 
-* [The URL to the deployed to Heroku application](https://sheltered-escarpment-30558.herokuapp.com/?id=618adb28125de300160483d4)
+* [The URL to the deployed application to Render!](https://workout-tracker-01py.onrender.com)
 
 * [The URL to the GitHub repository](https://github.com/bindi-v/Workout_Tracker)
 
