@@ -1,11 +1,12 @@
 const mongoose = require('mongoose');
-const db = require('../models/workout');
+const db = require('../models');
+//const Workout = require('../models/workout');
 //const workout = require('../models/workout.js');
 
 mongoose.connect('mongodb://localhost/workout', {
   useNewUrlParser: true,
-  useFindAndModify: false,
-  useUnifiedTopology: true,
+  //useFindAndModify: false,
+  useUnifiedTopology: true
 });
 
 const workoutSeed = [
@@ -127,12 +128,25 @@ const workoutSeed = [
 ];
 
 db.Workout.deleteMany({})
-  .then(() => db.Workout.collection.insertMany(workoutSeed))
-  .then((data) => {
-    console.log(data.result.n + ' records inserted!');
-    process.exit(0);
-  })
+.then(() => db.Workout.collection.insertMany(workoutSeed))
+.then((data) => {
+  console.log(data.result.n + ' records inserted!');
+  process.exit(0);
+})
   .catch((err) => {
     console.error(err);
     process.exit(1);
   });
+  
+  // const deleteData = async () => {
+  //   try {
+  //    await db.Workout.deleteMany()
+  //    .then(() => db.Workout.collection.insertMany(workoutSeed))
+  //  .then((data) => {
+  //    console.log(data.result.n + ' records inserted!');
+  //    //console.log('Data Destroyed...'.red.inverse)
+  //    process.exit()})
+  //   } catch (err) {
+  //    console.error(err)
+  //   }
+  //  }
