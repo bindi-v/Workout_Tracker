@@ -1,6 +1,6 @@
 # Workout_Tracker
 
-In this, we create a workout tracker. We have already been provided with the front end code in the. In this, we require to create Mongo database with a Mongoose schema and handle routes with Express.
+In this, we create a workout tracker. We have already been provided with the front end code for app, In this, we require to create Mongo database with a Mongoose schema and handle routes with Express.
 
 ## User Story
 
@@ -52,11 +52,20 @@ The following screenshots demonstrates the application functionality:
 
 The following necessary dependencies must be installed to run the application.
 
- mongoDB, mongoose, morgan, mongoDB Atlas, Heroku, Express, NodeJS 
+ mongoDB, mongoose, morgan, mongoDB Atlas, Express, NodeJS 
+ 
+ In Terminal,
+ ```
+ npm install or npm i
+ ```
 
 ## Usage
 
- Application can be invoked by npm start or node server.js command in terminal or user can use deployed to Heroku link to access application.
+ Application can be invoked by below command in terminal
+ ```
+ npm start or node server.js
+ ```
+  or user can use deployed to `Render` link to access application.
 
 ## Test
   N/A
